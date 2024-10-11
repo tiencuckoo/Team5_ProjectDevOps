@@ -1,5 +1,5 @@
 # Project Setup using below tools
-Maven
-Git Hub
+1. Maven
+2. Git Hub
 Jenkins
 Docker
