@@ -1,1 +1,5 @@
-# Team5_ProjectDevOps
+Project Setup using below tools
+Maven
+Git Hub
+Jenkins
+Docker
