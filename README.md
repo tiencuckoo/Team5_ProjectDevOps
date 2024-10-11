@@ -8,11 +8,6 @@
 2. Figure security group
 3. Connect using Putty
 4. Install Java
-# Update package lists
 sudo yum update -y
-
-# Install fontconfig and OpenJDK 17
 sudo yum install -y fontconfig java-17-amazon-corretto
-
-# Verify Java installation
 java -version
