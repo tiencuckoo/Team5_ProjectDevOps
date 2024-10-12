@@ -2,11 +2,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
-  <groupId>team5.project.devops</groupId>
-  <artifactId>team5-app</artifactId>
+  <groupId>in.team5</groupId>
+  <artifactId>1-Team5-ProjectDevOps</artifactId>
   <packaging>war</packaging>
   <version>3.0-RELEASE</version>
-  <name>team5-app</name>
+  <name>1-Team5-ProjectDevOps</name>
   <url>http://maven.apache.org</url>
  
   <dependencies>
@@ -18,7 +18,7 @@
    
   </dependencies>
   <build>
-    <finalName>team5-app</finalName>
+    <finalName>Team5_ProjectDevOps</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
