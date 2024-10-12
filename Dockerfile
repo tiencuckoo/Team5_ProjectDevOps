@@ -1,4 +1,6 @@
-FROM tomcat:8.0.20-jre8
-MAINTAINER Tally <tallylg1509@gmail.com>
-EXPOSE 8080
-COPY target/team5_project.war /usr/local/tomcat/webapps/team5_project.war
+FROM ubuntu
+RUN apt-get update && apt-get install -y tzdata
+RUN apt-get -y install apache2
+ADD rsp.html /var/www/html
+ENTRYPOINT ["apachectl", "-D", "FOREGROUND"]
+ENV name Team5_Evo
